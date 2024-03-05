@@ -17,7 +17,7 @@ helm:
   repo: "http://www.mock-server.com"
 
   # Used if repo is set to look up the version of the chart
-  version: "5.14.0"
+  version: "5.15.0"
 
   # Force recreate resource that can not be updated
   force: false
