@@ -4,7 +4,7 @@ defaultNamespace: mockserver
 # Custom helm options
 helm:
   # The release name to use. If empty a generated release name will be used
-  releaseName: mockserver
+  releaseName: mockserver-config
 
   # Optional map of labels, that are set at the bundle and can be used in a
   # dependsOn.selector
