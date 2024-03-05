@@ -4,7 +4,7 @@ service:
   externalIPs: []
   loadBalancerIP: ""
   loadBalancerSourceRanges: []
-  type: ClusterIp
+  type: ClusterIP
   port: 1080
   nodePort: ""
   test:
@@ -17,6 +17,6 @@ ingress:
   hosts:
     - host: mockserver.local
       paths:
-        - path: /
+        - path: /mockserver
           pathType: ImplementationSpecific
   tls: []
