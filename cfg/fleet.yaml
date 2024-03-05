@@ -1,0 +1,25 @@
+# The default namespace to be applied to resources.
+defaultNamespace: mockserver
+
+# Custom helm options
+helm:
+  # The release name to use. If empty a generated release name will be used
+  releaseName: mockserver
+
+  # Optional map of labels, that are set at the bundle and can be used in a
+  # dependsOn.selector
+  # labels:
+  #   key: value
+
+  # The directory of the chart in the repo
+  chart: ""
+
+  # An https to a valid Helm repository to download the chart from
+  repo: ""
+
+  # Used if repo is set to look up the version of the chart
+  version: ""
+
+  # Force recreate resource that can not be updated
+  force: false
+
