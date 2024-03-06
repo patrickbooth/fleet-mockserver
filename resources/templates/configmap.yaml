@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/name: mockserver
     app.kubernetes.io/version: 5.15.0
     meta.helm.sh/release-name: mockserver-config
-    "meta.helm.sh/release-namespace: namespace
+    meta.helm.sh/release-namespace: namespace
 data:
   initializerJson.json: |
     [
