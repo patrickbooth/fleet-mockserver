@@ -7,5 +7,6 @@ metadata:
 spec:
   repo: "https://github.com/patrickbooth/fleet-mockserver"
   paths:
-  - .
+  - ./resources
+  - ./mockserver
   branch: main
