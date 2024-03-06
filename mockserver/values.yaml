@@ -15,7 +15,7 @@ ingress:
   className: "nginx"
   annotations: {}
   hosts:
-    - host: mockserver.local
+    - host: localhost
       paths:
         - path: /mockserver
           pathType: ImplementationSpecific
