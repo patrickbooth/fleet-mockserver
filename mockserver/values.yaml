@@ -15,7 +15,7 @@ ingress:
   className: "nginx"
   annotations: {}
   hosts:
-    - host: localhost
+    - host: mockserver.k8s
       paths:
         - path: /mockserver
           pathType: ImplementationSpecific
